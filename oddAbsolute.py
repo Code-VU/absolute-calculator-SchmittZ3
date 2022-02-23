@@ -8,8 +8,6 @@ def calculateAbsolute():
         n = 21 - int(in_num)
     print('Result:', abs(n))
 
-calculateAbsolute()
-
     # end assignment
 
 ## if you want to test locally before you try to sync
