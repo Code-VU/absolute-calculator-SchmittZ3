@@ -2,6 +2,14 @@ def calculateAbsolute():
     
     # This first line is provided for you
     in_num  = input("Enter a number: ")
+    if int(in_num) > 21:
+        n = (int(in_num) - 21) * 2 
+    if int(in_num) < 21:
+        n = 21 - int(in_num)
+    print('Result:', n)
+
+calculateAbsolute()
+
     # end assignment
 
 ## if you want to test locally before you try to sync
