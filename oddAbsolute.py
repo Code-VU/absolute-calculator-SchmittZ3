@@ -6,7 +6,7 @@ def calculateAbsolute():
         n = (int(in_num) - 21) * 2 
     if int(in_num) < 21:
         n = 21 - int(in_num)
-    print('Result:', n)
+    print('Result:', abs(n))
 
 calculateAbsolute()
 
